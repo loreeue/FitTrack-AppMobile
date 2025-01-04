@@ -2,7 +2,7 @@
 
 ## Descripción del Proyecto
 
-FitTrack es una aplicación móvil diseñada para gestionar y registrar actividades deportivas, como correr, nadar y hacer ciclismo. La aplicación proporciona funcionalidades de seguimiento del progreso, registro de actividades, y un sistema de logros que motiva a los usuarios a mantenerse activos. A través de una interfaz intuitiva, los usuarios pueden visualizar su rendimiento, establecer metas y recibir recompensas en forma de logros con audio motivacional.
+FitTrack es una aplicación móvil, realizada con Android Studio para la asignatura de Laboratorios de Dispositivos Móviles, diseñada para gestionar y registrar actividades deportivas, como correr, nadar y hacer ciclismo. La aplicación proporciona funcionalidades de seguimiento del progreso, registro de actividades, y un sistema de logros que motiva a los usuarios a mantenerse activos. A través de una interfaz intuitiva, los usuarios pueden visualizar su rendimiento, establecer metas y recibir recompensas en forma de logros con audio motivacional.
 
 ## Funcionalidades Principales
 
