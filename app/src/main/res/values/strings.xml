@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Practica2</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="frase_motivacional">¡Mantente Activo y Alcanza tus Metas!</string>
+    <string name="btnProgreso">Ver Progreso</string>
+    <string name="btnRegistro">Registrar Actividad</string>
+    <string name="btnLogros">Ver Logros</string>
+    <string name="distancia_km">Distancia (km)</string>
+    <string name="tiempo">Tiempo (min)</string>
+    <string name="progreso">Progreso respecto a tu última actividad</string>
+    <string name="guardar_actividad">Guardar Actividad</string>
+    <string name="progreso_general">Progreso General</string>
+    <string name="distancia_recorrida">Distancia Recorrida</string>
+    <string name="tiempo_invertido">Tiempo Invertido</string>
+    <string name="actualizar_progreso">Actualizar Progreso</string>
+    <string name="tus_logros">Tus Logros</string>
+    <string name="volver">Volver</string>
+    <string name="icono_de_logro">Icono de logro</string>
+    <string name="titulo_logro1">Primer 5 km corriendo</string>
+    <string name="descripcion_logro1">Has corrido tu primera carrera de 5 km. ¡Enhorabuena!</string>
+    <string name="prompt_tipo_actividad">Selecciona el tipo de actividad</string>
+    <string name="seguir">Seguir</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="manual_de_usuario">Manual de Usuario</string>
+    <string name="text_help">Esta aplicación te permite registrar y ver tus actividades deportivas como correr, nadar y ciclismo. Puedes ver tu progreso y alcanzar logros. Utiliza el botón de play para escuchar sonidos motivacionales y elimina actividades que ya no quieras ver. Para filtrar actividades, utiliza el Spinner de la pantalla de progreso.</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="play">Play</string>
+    <string name="logro_desbloqueado">Logro desbloqueado</string>
+    <string name="btn_home_1">1. Ver progreso:\nPuedes filtrar el tipo de actividad que desees ver. Aparecen todas las actividades registradas con sus datos detallados. Además, puedes eliminar cualquier actividad haciendo clic en la \'X\'.</string>
+    <string name="btn_home_2">2. Registrar actividad:\nPermite registrar una nueva actividad con los datos correspondientes. Una vez guardada, puedes ver el progreso específico de esa actividad.</string>
+    <string name="btn_home_3">3. Ver logros:\nMuestra todos los logros disponibles, que se desbloquean según las actividades completadas. Al hacer clic en el botón \'Play\', se reproducirá el mensaje de audio correspondiente al logro.</string>
+    <string name="nota">Nota: Usa los botones de \'Volver\' para regresar a la pantalla principal.</string>
+    <string name="velocidad_maxima">Velocidad Máxima (km/h)</string>
+</resources>

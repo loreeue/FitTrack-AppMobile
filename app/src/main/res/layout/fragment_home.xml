@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#15112B"
+    android:padding="16dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#F48599"
+            android:theme="@style/AppTheme.Toolbar"
+            app:title="FitTrack"
+            app:titleTextColor="#FFFFFF"
+            app:titleTextAppearance="@font/architects_daughter"/>
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@mipmap/logo_app"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginEnd="16dp"
+            android:scaleType="fitCenter"
+            tools:ignore="ContentDescription" />
+    </FrameLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"
+        tools:ignore="ContentDescription"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textMotivation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/frase_motivacional"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:padding="4dp"
+        android:fontFamily="@font/architects_daughter"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5" />
+
+    <Button
+        android:id="@+id/btnProgreso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F48599"
+        android:fontFamily="@font/architects_daughter"
+        android:text="@string/btnProgreso"
+        android:textColor="#FFFFFF"
+        tools:ignore="TextContrastCheck" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+
+    <Button
+        android:id="@+id/btnRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F48599"
+        android:fontFamily="@font/architects_daughter"
+        android:text="@string/btnRegistro"
+        android:textColor="#FFFFFF"
+        tools:ignore="TextContrastCheck" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+
+    <Button
+        android:id="@+id/btnLogros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F48599"
+        android:fontFamily="@font/architects_daughter"
+        android:text="@string/btnLogros"
+        android:textColor="#FFFFFF"
+        tools:ignore="TextContrastCheck" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+
+    <Button
+        android:id="@+id/btnHelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F48599"
+        android:fontFamily="@font/architects_daughter"
+        android:text="@string/ayuda"
+        android:textColor="#FFFFFF"
+        tools:ignore="TextContrastCheck" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+</LinearLayout>

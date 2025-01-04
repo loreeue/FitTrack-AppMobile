@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#15112B"
+    android:padding="16dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#F48599"
+            android:theme="@style/AppTheme.Toolbar"
+            app:title="FitTrack"
+            app:titleTextColor="#FFFFFF"
+            app:titleTextAppearance="@font/architects_daughter"/>
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@mipmap/logo_app"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginEnd="16dp"
+            android:scaleType="fitCenter"
+            tools:ignore="ContentDescription" />
+    </FrameLayout>
+
+    <Spinner
+        android:id="@+id/spinnerTipoActividad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#F48599"
+        android:prompt="@string/prompt_tipo_actividad"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewActividades"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="8dp" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#F48599"
+        android:fontFamily="@font/architects_daughter"
+        android:padding="12dp"
+        android:text="@string/volver"
+        android:textColor="@android:color/white"
+        tools:ignore="TextContrastCheck" />
+</LinearLayout>
