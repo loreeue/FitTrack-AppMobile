@@ -55,31 +55,41 @@ Presenta un manual de usuario que explica cómo utilizar la aplicación y sus fu
 ## Imágenes
 
 ![Pantalla 1](images/cap1.png)
+
 *Pantalla Principal*
 
 ![Pantalla 2](images/cap2.png)
+
 *Pantalla Progreso (Todas)*
 
 ![Pantalla 3](images/cap3.png)
+
 *Pantalla Progreso (Correr)*
 
 ![Pantalla 4](images/cap4.png)
+
 *Pantalla Progreso (Nadar)*
 
 ![Pantalla 5](images/cap5.png)
+
 *Pantalla Progreso (Ciclismo)*
 
 ![Pantalla 7](images/cap7.png)
+
 *Pantalla Registro (Correr)*
 
 ![Pantalla 8](images/cap8.png)
+
 *Pantalla Registro (Nadar)*
 
 ![Pantalla 9](images/cap9.png)
+
 *Pantalla Registro (Ciclismo)*
 
 ![Pantalla 11](images/cap11.png)
+
 *Pantalla Logros*
 
 ![Pantalla 12](images/cap12.png)
+
 *Pantalla Ayuda*
